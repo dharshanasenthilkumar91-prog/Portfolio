@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dharshana Senthilkumar | Portfolio</title>
+<meta name="description" content="Projects and experience of Dharshana Senthilkumar, B.Tech CSE student at Amrita Vishwa Vidyapeetham.">
+<style>
+  :root {
+    --ink: #1d2b2a;
+    --muted: #5d6b69;
+    --teal: #1f6f68;
+    --teal-dark: #164f4a;
+    --cream: #f4efe3;
+    --paper: #fbf9f4;
+    --line: #d9d3c4;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Georgia", "Times New Roman", serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  header { padding: 64px 0 40px; border-bottom: 1px solid var(--line); }
+  .name { font-size: 2.6rem; margin: 0 0 6px; letter-spacing: -0.01em; color: var(--teal-dark); }
+  .role { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.95rem; color: var(--muted); margin: 0 0 20px; text-transform: uppercase; letter-spacing: 0.08em; }
+  .intro { font-size: 1.12rem; max-width: 640px; margin: 0 0 24px; }
+  .links a {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.92rem;
+    color: var(--teal);
+    margin-right: 22px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .links a:hover { border-bottom-color: var(--teal); }
+
+  section { padding: 44px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--teal);
+    margin: 0 0 24px;
+    font-weight: 700;
+  }
+
+  .project { margin: 0 0 34px; }
+  .project:last-child { margin-bottom: 0; }
+  .project h3 { font-size: 1.25rem; margin: 0 0 4px; color: var(--ink); }
+  .project .meta {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+  .project p { margin: 0 0 10px; }
+  .tags { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.8rem; color: var(--teal-dark); }
+  .tags span { margin-right: 12px; }
+
+  .entry { display: grid; grid-template-columns: 160px 1fr; gap: 20px; margin-bottom: 26px; }
+  .entry .when { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.86rem; color: var(--muted); padding-top: 3px; }
+  .entry h3 { font-size: 1.05rem; margin: 0 0 4px; }
+  .entry p { margin: 0; }
+
+  .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 40px; }
+  .skills h4 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.85rem; margin: 0 0 6px; color: var(--ink); }
+  .skills p { margin: 0; color: var(--muted); font-size: 0.97rem; }
+
+  .facts { margin-top: 10px; font-size: 0.97rem; color: var(--muted); }
+  .facts li { margin-bottom: 6px; }
+  .facts ul { padding-left: 18px; margin: 0; }
+
+  footer { padding: 36px 0 60px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.85rem; color: var(--muted); }
+
+  @media (max-width: 640px) {
+    .name { font-size: 2rem; }
+    .entry { grid-template-columns: 1fr; gap: 4px; }
+    .skills { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <h1 class="name">Dharshana Senthilkumar</h1>
+    <p class="role">B.Tech CSE &middot; Amrita Vishwa Vidyapeetham</p>
+    <p class="intro">I build AI systems and full-stack applications, and I enjoy solving algorithmic problems. Most of my work so far sits where machine learning meets something people can actually use: border surveillance dashboards, deepfake detection, offline document Q&amp;A, and deployed tools for student communities.</p>
+    <p class="links">
+      <a href="mailto:dharshanasenthilkumar91@gmail.com">dharshanasenthilkumar91@gmail.com</a>
+      <a href="http://www.linkedin.com/in/dharshanasenthilkumar06" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="project">
+      <h3>BORDER-EYE AI</h3>
+      <p class="meta">Smart India Hackathon 2026 &middot; PS 26187, Ministry of Home Affairs</p>
+      <p>An AI-based border video analytics platform that works on existing CCTV infrastructure, with a working Command Center dashboard prototype. Built as a team project.</p>
+      <p class="tags"><span>Python</span><span>Computer Vision</span><span>AI/ML</span><span>Real-time Video Analytics</span></p>
+    </article>
+
+    <article class="project">
+      <h3>AI Deepfake Detector</h3>
+      <p class="meta">Personal project</p>
+      <p>A system that detects deepfake media, built end to end with AI-assisted and vibe coding practices.</p>
+      <p class="tags"><span>Python</span><span>AI/ML</span><span>Vibe Coding</span></p>
+    </article>
+
+    <article class="project">
+      <h3>Multimodal RAG System</h3>
+      <p class="meta">Team Tejas &middot; Hackathon / evaluathon presentation</p>
+      <p>An offline Retrieval-Augmented Generation system that answers questions over documents, audio, and images.</p>
+      <p class="tags"><span>Python</span><span>RAG</span><span>Multimodal AI</span><span>Offline NLP</span></p>
+    </article>
+
+    <article class="project">
+      <h3>MERN Task Tracker</h3>
+      <p class="meta">Course submission</p>
+      <p>A full-stack task tracking application with MongoDB Atlas for storage and JWT-based authentication.</p>
+      <p class="tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span><span>JWT</span></p>
+    </article>
+
+    <article class="project">
+      <h3>Automatic Fire Escape Route Indicator</h3>
+      <p class="meta">Digital Electronics mini-project</p>
+      <p>A circuit that indicates the fire escape route, built from SR latches made of NOR gates. Simulated in Logic.ly and documented in a full lab report.</p>
+      <p class="tags"><span>Digital Logic Design</span><span>Logic.ly</span><span>Circuit Simulation</span></p>
+    </article>
+
+    <article class="project">
+      <h3>CRAFT Projects: TruthLens, OfflineRAG, Akshar AI</h3>
+      <p class="meta">Council for Real-World Applications &amp; Future Tech, Amrita</p>
+      <p>Three deployed projects shipped while serving as Tech Lead of the club. Also designed the CRAFT logo.</p>
+      <p class="tags"><span>AI</span><span>Deployment</span><span>Team Leadership</span></p>
+    </article>
+  </section>
+
+  <section id="experience">
+    <h2>Experience &amp; Leadership</h2>
+
+    <div class="entry">
+      <div class="when">2026</div>
+      <div>
+        <h3>Web Development Intern, Skillumni</h3>
+        <p>Three-month internship focused on web development.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="when">Current</div>
+      <div>
+        <h3>Tech Lead, CRAFT</h3>
+        <p>Leading technical work at Amrita's AI and emerging-technology club, including preparation for the club inauguration.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="when">Current</div>
+      <div>
+        <h3>Tech and Mentorship Lead, ICPC Chapter, Amrita</h3>
+        <p>Mentoring peers and organizing coding contests for junior students.</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="when">2026</div>
+      <div>
+        <h3>Speaker, Agentic AI Webinar</h3>
+        <p>Delivered a 50-minute webinar on Agentic AI for a CSI chapter event at Amrita, with a full slide deck and speaker script.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="competitive">
+    <h2>Competitive Programming</h2>
+    <p>I solve algorithmic problems on Codeforces, usually in Python, and write up solutions with clear explanations. I won first place in the ICPC Contest 2025 as part of Team Codzilla, the women-only team across the Amrita campus.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills &amp; Credentials</h2>
+    <div class="skills">
+      <div>
+        <h4>Languages</h4>
+        <p>Python, Java, JavaScript, C, HTML, MATLAB</p>
+      </div>
+      <div>
+        <h4>AI and Data</h4>
+        <p>Generative AI, prompt engineering, RAG pipelines, computer vision, data analysis</p>
+      </div>
+      <div>
+        <h4>Development</h4>
+        <p>Full-stack development, Git and GitHub, vibe coding</p>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <p>Logic.ly, circuit simulation</p>
+      </div>
+    </div>
+    <ul class="facts" style="margin-top: 24px;">
+      <li>NPTEL Certification: Python for Data Science, Silver Rank</li>
+      <li>CGPA: 9.15</li>
+      <li>Languages spoken: English, Tamil</li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    Trichy, Tamil Nadu, India &middot; Dharshana Senthilkumar
+  </div>
+</footer>
+
+</body>
+</html>
